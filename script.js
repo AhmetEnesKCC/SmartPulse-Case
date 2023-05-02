@@ -42,7 +42,7 @@ $(() => {
           .reduce((r, a) => r + a, 0)
           .toFixed(2);
         const t4 = (t2 / t3).toFixed(2);
-        const cells = [t1, t2 + " ₺", t3, t4];
+        const cells = [t1, t2 + "₺", t3, t4];
         const tr = document.createElement("tr");
         for (const cell of cells) {
           const td = document.createElement("td");
